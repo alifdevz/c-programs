@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-void printHelloWorld()
-{
-    printf("Hello, world!\n");
-}
+// Prototype
+void printHelloWorld();
 
 int main(void)
 {
@@ -12,4 +10,9 @@ int main(void)
     {
         printHelloWorld();
     }
+}
+
+void printHelloWorld()
+{
+    printf("Hello, world!\n");
 }
