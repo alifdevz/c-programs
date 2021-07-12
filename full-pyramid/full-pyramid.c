@@ -19,7 +19,7 @@ int main(void)
         }
 
         // Separator
-        printf(" ");
+        printf("  ");
 
         // Print the left-aligned pyramid
         for (int j = 0; j < i + 1; j++)
